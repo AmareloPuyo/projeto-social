@@ -27,7 +27,35 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-   
-
-
+}
+#tela{
+    position: absolute;
+    top: 12.8%;
+    left: 7%;
+    height: 470px;
+    width: 267px;
+    overflow: hidden;
+}
+#redes{
+    position: absolute;
+    right: 6%;
+    top: 5%;
+    
+}
+#redes ul{
+    list-style-type: none;
+}
+#redes img{
+    background-color: rgba(255, 255, 255, 0.377);
+    margin:10px;
+    box-shadow: 2px 2px 5px black;
+    width: 80px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
+    transition: transform 0.3s, border .1s;
 }
